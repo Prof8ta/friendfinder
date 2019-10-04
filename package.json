@@ -1,22 +1,25 @@
 {
-  "name": "friendfinder",
+  "name": "friend-finder",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "dating app",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Prof8ta/friendfinder.git"
+    "url": "git+https://github.com/rangyabines/Friend-Finder.git"
   },
-  "author": "",
+  "author": "rangy abines",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Prof8ta/friendfinder/issues"
+    "url": "https://github.com/rangyabines/Friend-Finder/issues"
   },
-  "homepage": "https://github.com/Prof8ta/friendfinder#readme",
+  "homepage": "https://github.com/rangyabines/Friend-Finder#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "path": "^0.12.7"
   }
 }
